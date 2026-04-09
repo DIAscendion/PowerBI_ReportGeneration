@@ -1,138 +1,35 @@
-# TMS Shipment Application Data Model
+# Sample Data Reference
 
-## Sample Data — 3 Representative Rows
+## Table 1: go_carrier_performance_monthly
 
-> The following table shows sample values for the most business-critical columns. Nullable columns not relevant to each scenario are omitted for readability.
-
-| Column Name | Row 1 — Planned Outbound (Truck) | Row 2 — In-Transit (Hazmat, Perishable) | Row 3 — Delivered (Cancelled BOL) |
-|---|---|---|---|
-| **SHIPMENT_ID** | SHP-20260001 | SHP-20260002 | SHP-20260003 |
-| **TC_SHIPMENT_ID** | TCS-00100001 | TCS-00100002 | TCS-00100003 |
-| **TC_COMPANY_ID** | COMP-001 | COMP-001 | COMP-001 |
-| **SHIPMENT_STATUS** | PLANNED | IN_TRANSIT | DELIVERED |
-| **SHIPMENT_TYPE** | OUTBOUND | OUTBOUND | INBOUND |
-| **SHIPMENT_LEG_TYPE** | DIRECT | DIRECT | RELAY |
-| **MOVE_TYPE** | OUTBOUND | OUTBOUND | INBOUND |
-| **CREATED_DTTM** | 2026-03-01 08:00:00 | 2026-03-10 06:30:00 | 2026-02-15 09:00:00 |
-| **CREATED_SOURCE** | TMS_UI | EDI_INTEGRATION | TMS_UI |
-| **CREATED_SOURCE_TYPE** | PLANNER | SYSTEM | PLANNER |
-| **LAST_UPDATED_DTTM** | 2026-03-20 14:22:00 | 2026-03-24 11:05:00 | 2026-03-01 17:45:00 |
-| **LAST_UPDATED_SOURCE** | TMS_UI | CARRIER_PORTAL | TMS_UI |
-| **BILL_OF_LADING_NUMBER** | BOL-2026-00001 | BOL-2026-00002 | BOL-2026-00003 |
-| **PRO_NUMBER** | NULL | PRO-78543210 | PRO-65412300 |
-| **PURCHASE_ORDER** | PO-45001 | PO-45002 | PO-44890 |
-| **CONTRACT_NUMBER** | CNT-2025-FTL-01 | CNT-2025-FTL-01 | CNT-2025-LTL-03 |
-| **ASSIGNED_CARRIER_CODE** | FEDX | UPSFR | XPOLS |
-| **ASSIGNED_CARRIER_ID** | CARR-FEDX-001 | CARR-UPS-002 | CARR-XPO-003 |
-| **ASSIGNED_MOT_ID** | TRUCK | TRUCK | TRUCK |
-| **ASSIGNED_SERVICE_LEVEL_ID** | STD-GND | PRIORITY | ECONOMY |
-| **ASSIGNED_SHIP_VIA** | FTL | FTL | LTL |
-| **EQUIPMENT_TYPE** | DRY_VAN | REEFER | DRY_VAN |
-| **TRLR_TYPE** | DRY_VAN | REFRIGERATED | DRY_VAN |
-| **TRLR_SIZE** | 53FT | 53FT | 48FT |
-| **TRAILER_NUMBER** | TRL-00445 | TRL-00812 | TRL-00231 |
-| **TRACTOR_NUMBER** | TRC-10023 | TRC-10098 | TRC-10011 |
-| **SEAL_NUMBER** | SEAL-44201 | SEAL-44388 | SEAL-44105 |
-| **O_FACILITY_ID** | FAC-CHI-DC-01 | FAC-DAL-DC-02 | FAC-ATL-SUP-01 |
-| **O_FACILITY_NUMBER** | 1001 | 1002 | 2001 |
-| **O_STOP_LOCATION_NAME** | Chicago Distribution Center | Dallas Distribution Center | Atlanta Supplier Warehouse |
-| **O_ADDRESS** | 100 Industrial Pkwy | 500 Commerce Blvd | 220 Supply Chain Dr |
-| **O_CITY** | Chicago | Dallas | Atlanta |
-| **O_STATE_PROV** | IL | TX | GA |
-| **O_POSTAL_CODE** | 60601 | 75201 | 30301 |
-| **O_COUNTRY_CODE** | US | US | US |
-| **D_FACILITY_ID** | FAC-NYC-STR-05 | FAC-MIA-STR-12 | FAC-CHI-DC-01 |
-| **D_FACILITY_NUMBER** | 5005 | 5012 | 1001 |
-| **D_STOP_LOCATION_NAME** | New York Store #05 | Miami Store #12 | Chicago Distribution Center |
-| **D_ADDRESS** | 900 5th Avenue | 300 Biscayne Blvd | 100 Industrial Pkwy |
-| **D_CITY** | New York | Miami | Chicago |
-| **D_STATE_PROV** | NY | FL | IL |
-| **D_POSTAL_CODE** | 10001 | 33101 | 60601 |
-| **D_COUNTRY_CODE** | US | US | US |
-| **PICKUP_START_DATE** | 2026-03-22 07:00:00 | 2026-03-10 08:00:00 | 2026-02-17 06:00:00 |
-| **PICKUP_END_DTTM** | 2026-03-22 10:00:00 | 2026-03-10 11:00:00 | 2026-02-17 09:00:00 |
-| **PICKUP_TZ** | America/Chicago | America/Chicago | America/New_York |
-| **DELIVERY_START_DTTM** | 2026-03-24 08:00:00 | 2026-03-13 07:00:00 | 2026-02-19 08:00:00 |
-| **DELIVERY_END_DTTM** | 2026-03-24 17:00:00 | 2026-03-13 12:00:00 | 2026-02-19 17:00:00 |
-| **DELIVERY_TZ** | America/New_York | America/New_York | America/Chicago |
-| **SCHEDULED_PICKUP_DTTM** | 2026-03-22 08:00:00 | 2026-03-10 09:00:00 | 2026-02-17 07:00:00 |
-| **SHIPMENT_START_DTTM** | NULL | 2026-03-10 09:15:00 | 2026-02-17 07:30:00 |
-| **SHIPMENT_END_DTTM** | NULL | NULL | 2026-02-19 14:20:00 |
-| **RECEIVED_DTTM** | NULL | NULL | 2026-02-19 14:20:00 |
-| **TENDER_DTTM** | 2026-03-20 10:00:00 | 2026-03-09 15:00:00 | 2026-02-14 11:00:00 |
-| **TENDER_RESP_DEADLINE_DATE** | 2026-03-21 17:00:00 | 2026-03-10 06:00:00 | 2026-02-15 17:00:00 |
-| **DAYS_TO_DELIVER** | 2 | 3 | 2 |
-| **TOTAL_TIME** | NULL | NULL | 48.83 |
-| **PLANNED_WEIGHT** | 18500.000 | 22000.000 | 12750.000 |
-| **PLANNED_VOLUME** | 1800.000 | 2100.000 | 1100.000 |
-| **FINANCIAL_WT** | 18500.000 | 22000.000 | 12750.000 |
-| **WEIGHT_UOM_ID_BASE** | LB | LB | LB |
-| **VOLUME_UOM_ID_BASE** | CUFT | CUFT | CUFT |
-| **DISTANCE** | 790.50 | 1305.75 | 690.20 |
-| **DIRECT_DISTANCE** | 785.00 | 1295.00 | 682.00 |
-| **DISTANCE_UOM** | MI | MI | MI |
-| **EQUIP_UTIL_PER** | 87.50 | 92.00 | 73.40 |
-| **NUM_STOPS** | 2 | 2 | 3 |
-| **CURRENCY_CODE** | USD | USD | USD |
-| **PLN_TOTAL_COST** | 3250.00 | 5800.00 | 1975.00 |
-| **PLN_LINEHAUL_COST** | 2950.00 | 5200.00 | 1700.00 |
-| **PLN_TOTAL_ACCESSORIAL_COST** | 150.00 | 400.00 | 175.00 |
-| **PLN_STOP_OFF_COST** | 150.00 | 200.00 | 100.00 |
-| **PLN_CURRENCY_CODE** | USD | USD | USD |
-| **ESTIMATED_COST** | 3250.00 | 5800.00 | 1975.00 |
-| **ACTUAL_COST** | NULL | NULL | 2010.00 |
-| **ACTUAL_COST_CURRENCY_CODE** | NULL | NULL | USD |
-| **TOTAL_COST** | 3250.00 | 5800.00 | 2010.00 |
-| **TOTAL_COST_EXCL_TAX** | 3250.00 | 5800.00 | 1940.00 |
-| **TOTAL_TAX_AMOUNT** | 0.00 | 0.00 | 70.00 |
-| **LINEHAUL_COST** | 2950.00 | 5200.00 | 1720.00 |
-| **ACCESSORIAL_COST** | 150.00 | 400.00 | 190.00 |
-| **STOP_COST** | 150.00 | 200.00 | 100.00 |
-| **CARRIER_CHARGE** | 3250.00 | 5800.00 | 2010.00 |
-| **ESTIMATED_SAVINGS** | 200.00 | 450.00 | 125.00 |
-| **REPORTED_COST** | NULL | NULL | 2010.00 |
-| **TOTAL_REVENUE** | NULL | NULL | 2250.00 |
-| **TOTAL_REVENUE_CURRENCY_CODE** | NULL | NULL | USD |
-| **MARGIN** | NULL | NULL | 240.00 |
-| **IS_HAZMAT** | N | Y | N |
-| **IS_PERISHABLE** | N | Y | N |
-| **IS_SHIPMENT_CANCELLED** | N | N | N |
-| **IS_SHIPMENT_RECONCILED** | N | N | Y |
-| **IS_MANUAL_ASSIGN** | N | Y | N |
-| **IS_BOOKING_REQUIRED** | N | N | N |
-| **SHIPMENT_CLOSED_INDICATOR** | N | N | Y |
-| **HAS_ALERTS** | N | Y | N |
-| **HAS_TRACKING_MSG** | N | Y | Y |
-| **HAS_NOTES** | Y | Y | N |
-| **ON_TIME_INDICATOR** | NULL | NULL | ON_TIME |
-| **DROPOFF_PICKUP** | DROPOFF | DROPOFF | PICKUP |
-| **PLN_MIN_TEMPERATURE** | NULL | 34.00 | NULL |
-| **PLN_MAX_TEMPERATURE** | NULL | 40.00 | NULL |
-| **TEMPERATURE_UOM** | NULL | F | NULL |
-| **CUSTOMER_ID** | CUST-10045 | CUST-10078 | CUST-10012 |
-| **BILL_TO_NAME** | Acme Retail Corp | BioFresh Distributors | Metro Supply Co |
-| **BILL_TO_ADDRESS** | 1500 Corporate Dr | 800 Logistics Ave | 350 Commerce Way |
-| **BILL_TO_CITY** | New York | Miami | Chicago |
-| **BILL_TO_STATE_PROV** | NY | FL | IL |
-| **BILL_TO_POSTAL_CODE** | 10001 | 33101 | 60601 |
-| **BILL_TO_COUNTRY_CODE** | US | US | US |
-| **BILL_TO_CODE** | ACME-001 | BIOFR-002 | METRO-003 |
-| **BILLING_METHOD** | PREPAID | PREPAID | COLLECT |
-| **COMMODITY_CLASS** | 70 | 85 | 65 |
-| **PACKAGING** | PALLET | PALLET | CARTON |
-| **ORDER_QTY** | 200.000 | 150.000 | 320.000 |
-| **DECLARED_VALUE** | 45000.00 | 38000.00 | 28500.00 |
-| **DV_CURRENCY_CODE** | USD | USD | USD |
-| **TRANS_RESP_CODE** | SHIPPER | SHIPPER | CONSIGNEE |
-| **PRIORITY_TYPE** | STANDARD | HIGH | STANDARD |
-| **LANE_NAME** | CHI-NYC-FTL-DIRECT | DAL-MIA-FTL-PRIORITY | ATL-CHI-LTL-RELAY |
-| **REGION_ID** | MIDWEST | SOUTH | SOUTHEAST |
-| **SENT_TO_PKMS** | Y | Y | Y |
-| **FIRST_UPDATE_SENT_TO_PKMS** | Y | Y | Y |
-| **UPDATE_SENT** | Y | Y | Y |
-| **WMS_STATUS_CODE** | PICK_COMPLETE | IN_TRANSIT | RECEIVED |
-| **EXTRACTION_DTTM** | 2026-03-20 14:30:00 | 2026-03-24 11:15:00 | 2026-03-01 18:00:00 |
+| summary_id | summary_month | carrier_key | total_shipments_assigned | completed_shipments | cancelled_shipments | completion_rate_percentage | cancellation_rate_percentage | total_distance_covered | average_distance_per_shipment | total_stops_serviced | average_stops_per_shipment | route_efficiency_score | on_time_performance_percentage | carrier_utilization_percentage | load_date | update_date | source_system |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 7 | 2026-02-01 | SDIA | 1 | 0 | 1 | 0.00 | 100.00 | 522.00 | 522.00 | 1 | 1.00 | 100.00 | null | 0.00 | 2026-04-07T12:54:58.617Z | 2026-04-07T12:54:58.617Z | TMS_ORACLE |
+| 9 | 2026-02-01 | SNCY | 1 | 0 | 1 | 0.00 | 100.00 | 601.40 | 601.40 | 1 | 1.00 | 100.00 | null | 0.00 | 2026-04-07T12:54:58.617Z | 2026-04-07T12:54:58.617Z | TMS_ORACLE |
 
 ---
 
-*Note: NULL values indicate fields not yet populated at the time of the shipment's current status. All datetime values are in UTC unless a timezone column is specified.*
+## Table 2: go_shipment_daily_summary
+
+| summary_id | summary_date | carrier_key | facility_key | total_shipment_count | active_shipment_count | completed_shipment_count | cancelled_shipment_count | reconciled_shipment_count | cancelled_shipment_percentage | reconciled_shipment_percentage | total_route_distance_sum | average_route_distance | total_stops_sum | average_stops_per_shipment | out_of_route_distance_sum | out_of_route_percentage | route_efficiency_index | load_date | update_date | source_system |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 7 | 2025-06-09 | GBEA | CFSGDYR031 | 1 | 0 | 1 | 0 | 0 | 0.00 | 0.00 | 8.00 | 8.00 | 1 | 1.00 | 0.00 | 0.00 | 100.00 | 2026-04-07T12:52:05.705Z | 2026-04-07T12:52:05.705Z | TMS_ORACLE |
+| 10 | 2025-08-18 | GBEA | CFSGDYR031 | 1 | 0 | 1 | 0 | 0 | 0.00 | 0.00 | 8.00 | 8.00 | 1 | 1.00 | 0.00 | 0.00 | 100.00 | 2026-04-07T12:52:05.705Z | 2026-04-07T12:52:05.705Z | TMS_ORACLE |
+
+---
+
+## Table 3: go_shipment_facts
+
+| id | SHIPMENT_ID | TC_SHIPMENT_ID | TC_COMPANY_ID | REF_SHIPMENT_NBR | SHIPMENT_STATUS | SHIPMENT_TYPE | MOVE_TYPE | BUSINESS_PROCESS | IS_SHIPMENT_CANCELLED | IS_SHIPMENT_RECONCILED | CREATED_DTTM | LAST_UPDATED_DTTM | SHIPMENT_START_DTTM | SHIPMENT_END_DTTM | TENDER_DTTM | PICKUP_START_DATE | PICKUP_END_DTTM | DELIVERY_START_DTTM | DELIVERY_END_DTTM | O_FACILITY_ID | O_FACILITY_NUMBER | O_STOP_LOCATION_NAME | O_ADDRESS | O_CITY | O_STATE_PROV | O_POSTAL_CODE | O_COUNTRY_CODE | D_FACILITY_ID | D_FACILITY_NUMBER | D_STOP_LOCATION_NAME | D_ADDRESS | D_CITY | D_STATE_PROV | D_POSTAL_CODE | D_COUNTRY_CODE | ASSIGNED_CARRIER_CODE | ASSIGNED_CARRIER_ID | DSG_CARRIER_CODE | EQUIPMENT_TYPE | TRAILER_NUMBER | TRLR_TYPE | TRLR_SIZE | DISTANCE | DIRECT_DISTANCE | OUT_OF_ROUTE_DISTANCE | DISTANCE_UOM | NUM_STOPS | PLANNED_WEIGHT | PLANNED_VOLUME | TOTAL_COST | ACTUAL_COST | ESTIMATED_COST | LINEHAUL_COST | ACCESSORIAL_COST | CURRENCY_CODE | DAYS_TO_DELIVER | IS_HAZMAT | IS_PERISHABLE | BILL_TO_CODE | BILL_OF_LADING_NUMBER | BILL_TO_STATE_PROV | BILL_TO_POSTAL_CODE | ASSIGNED_SERVICE_LEVEL_ID | VENDOR_NAME | FISCAL_YEAR_WEEK | FISCAL_YEAR_MONTH | carrier_key | facility_key | TOTAL_REVENUE | ON_TIME_FLAG | COST_PER_MILE | load_date | update_date | source_system |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 7 | CS00009409 | CS00009409 | L1-DSG-DEV | 2014-06-009409 | 80 | Inbound | PICKUP | VENDOR_DIRECT | N | Y | 2014-06-18T08:00:00.000Z | 2014-06-20T14:00:00.000Z | 2014-06-19T06:00:00.000Z | 2014-06-20T14:00:00.000Z | 2014-06-18T07:00:00.000Z | 2014-06-19T06:00:00.000Z | 2014-06-19T14:00:00.000Z | 2014-06-19T14:00:00.000Z | 2014-06-21T08:00:00.000Z | V3877_6 | null | Brunton/Anchor3PL, Salt Lake City UT | null | Salt Lake City | UT | 84104 | US | 51 | null | Dedicated_51 | null | Columbus | OH | 43215 | US | GBEA | null | GBEA | TL | FANU223344 | HAZMAT_VAN | 48FT | 1876.00 | 1876.00 | 0.00 | mi | 2 | 12000.000 | 820.000 | 3800.00 | 3780.00 | 3720.00 | 3200.00 | 600.00 | USD | 2 | Y | N | DSG-CORP | BOL-2014-009409 | null | null | Standard | Brunton Outdoor | 201424 | 201406 | GBEA | V3877_6 | null | Y | 2.03 | 2026-04-07T12:36:55.664Z | 2026-04-07T12:36:55.664Z | TMS_ORACLE |
+| 12 | CS20167138 | CS20167138 | L1-DSG-DEV | 2025-12-167138 | 80 | Inbound | PICKUP | VENDOR_DIRECT | N | Y | 2025-12-09T16:15:13.000Z | 2025-12-12T15:00:00.000Z | 2025-12-10T08:00:00.000Z | 2025-12-12T15:00:00.000Z | 2025-12-09T16:15:00.000Z | 2025-12-10T08:00:00.000Z | 2025-12-10T12:00:00.000Z | 2025-12-10T12:00:00.000Z | 2025-12-12T17:00:00.000Z | V72703_2 | null | Minelab Americas Inc, Aurora IL | null | Aurora | IL | 60502 | US | 196 | null | Store 196 | null | Romeoville | IL | 60446 | US | FDEG | null | FDEG | PAR | FANU556677 | Container | 28FT | 342.00 | 342.00 | 0.00 | mi | 1 | 520.000 | 38.000 | 19.40 | 19.40 | 19.00 | 16.00 | 3.40 | USD | 3 | N | N | DSG-CORP | BOL-2025-167138 | null | null | Ground | Minelab Americas Inc. | 202545 | 202511 | FDEG | V72703_2 | null | Y | 0.06 | 2026-04-07T12:36:55.664Z | 2026-04-07T12:36:55.664Z | TMS_ORACLE |
+
+---
+
+## Table 4: go_shipment_notes
+
+| note_id | SHIPMENT_ID | note_stop_sequence | note_text | note_prefix | note_subcategory | fiscal_year_month | fiscal_year_week | load_date | update_date | source_system | note_prefix_o |
+|---|---|---|---|---|---|---|---|---|---|---|---|
+| 1 | CNKL4016376 | 2 | O-CA-Carrier Capacity | O | CA | Carrier Capacity | 202603 | +202611-01-01T00:00:00.000Z | 2026-04-07T12:40:39.784Z | 2026-04-07 12:40:39.784551 | TMS_ORACLE | (null) |
+| 2 | CNKL4018375 | 3 | O-S-Store Detention | O | S | Store Detention | 202603 | +202611-01-01T00:00:00.000Z | 2026-04-07T12:40:39.784Z | 2026-04-07 12:40:39.784551 | TMS_ORACLE | (null) |
