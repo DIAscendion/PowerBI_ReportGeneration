@@ -12,14 +12,14 @@
     "tables": [
       {
         "name": "go_shipment_facts",
-        "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb001",
+        "lineageTag": "a1c1b2d3-1000-2000-3000-400000000001",
         "columns": [
           {
             "name": "id",
             "dataType": "int64",
             "sourceColumn": "id",
             "formatString": "0",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb002",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000002",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -32,7 +32,7 @@
             "name": "SHIPMENT_ID",
             "dataType": "string",
             "sourceColumn": "SHIPMENT_ID",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb003",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000003",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -45,7 +45,7 @@
             "name": "TC_SHIPMENT_ID",
             "dataType": "string",
             "sourceColumn": "TC_SHIPMENT_ID",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb004",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000004",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -58,7 +58,7 @@
             "name": "TC_COMPANY_ID",
             "dataType": "string",
             "sourceColumn": "TC_COMPANY_ID",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb005",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000005",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -71,7 +71,7 @@
             "name": "REF_SHIPMENT_NBR",
             "dataType": "string",
             "sourceColumn": "REF_SHIPMENT_NBR",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb006",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000006",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -85,7 +85,7 @@
             "dataType": "int64",
             "sourceColumn": "SHIPMENT_STATUS",
             "formatString": "0",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb007",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000007",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -98,7 +98,7 @@
             "name": "SHIPMENT_TYPE",
             "dataType": "string",
             "sourceColumn": "SHIPMENT_TYPE",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb008",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000008",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -111,7 +111,7 @@
             "name": "MOVE_TYPE",
             "dataType": "string",
             "sourceColumn": "MOVE_TYPE",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb009",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000009",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -124,7 +124,7 @@
             "name": "BUSINESS_PROCESS",
             "dataType": "string",
             "sourceColumn": "BUSINESS_PROCESS",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb010",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000010",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -137,7 +137,7 @@
             "name": "IS_SHIPMENT_CANCELLED",
             "dataType": "string",
             "sourceColumn": "IS_SHIPMENT_CANCELLED",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb011",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000011",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -150,7 +150,7 @@
             "name": "IS_SHIPMENT_RECONCILED",
             "dataType": "string",
             "sourceColumn": "IS_SHIPMENT_RECONCILED",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb012",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000012",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -164,7 +164,7 @@
             "dataType": "dateTime",
             "sourceColumn": "CREATED_DTTM",
             "formatString": "General Date",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb013",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000013",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -182,7 +182,7 @@
             "dataType": "dateTime",
             "sourceColumn": "LAST_UPDATED_DTTM",
             "formatString": "General Date",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb014",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000014",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -200,7 +200,7 @@
             "dataType": "dateTime",
             "sourceColumn": "SHIPMENT_START_DTTM",
             "formatString": "General Date",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb015",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000015",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -218,7 +218,7 @@
             "dataType": "dateTime",
             "sourceColumn": "SHIPMENT_END_DTTM",
             "formatString": "General Date",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb016",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000016",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -236,7 +236,7 @@
             "dataType": "dateTime",
             "sourceColumn": "TENDER_DTTM",
             "formatString": "General Date",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb017",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000017",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -254,7 +254,7 @@
             "dataType": "dateTime",
             "sourceColumn": "PICKUP_START_DATE",
             "formatString": "General Date",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb018",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000018",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -272,7 +272,7 @@
             "dataType": "dateTime",
             "sourceColumn": "PICKUP_END_DTTM",
             "formatString": "General Date",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb019",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000019",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -290,7 +290,7 @@
             "dataType": "dateTime",
             "sourceColumn": "DELIVERY_START_DTTM",
             "formatString": "General Date",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb020",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000020",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -308,7 +308,7 @@
             "dataType": "dateTime",
             "sourceColumn": "DELIVERY_END_DTTM",
             "formatString": "General Date",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb021",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000021",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -325,7 +325,7 @@
             "name": "O_FACILITY_ID",
             "dataType": "string",
             "sourceColumn": "O_FACILITY_ID",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb022",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000022",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -338,7 +338,7 @@
             "name": "O_STOP_LOCATION_NAME",
             "dataType": "string",
             "sourceColumn": "O_STOP_LOCATION_NAME",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb023",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000023",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -351,7 +351,7 @@
             "name": "O_CITY",
             "dataType": "string",
             "sourceColumn": "O_CITY",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb024",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000024",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -364,7 +364,7 @@
             "name": "O_STATE_PROV",
             "dataType": "string",
             "sourceColumn": "O_STATE_PROV",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb025",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000025",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -377,7 +377,7 @@
             "name": "O_POSTAL_CODE",
             "dataType": "string",
             "sourceColumn": "O_POSTAL_CODE",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb026",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000026",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -390,7 +390,7 @@
             "name": "O_COUNTRY_CODE",
             "dataType": "string",
             "sourceColumn": "O_COUNTRY_CODE",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb027",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000027",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -403,7 +403,7 @@
             "name": "D_FACILITY_ID",
             "dataType": "string",
             "sourceColumn": "D_FACILITY_ID",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb028",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000028",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -416,7 +416,7 @@
             "name": "D_STOP_LOCATION_NAME",
             "dataType": "string",
             "sourceColumn": "D_STOP_LOCATION_NAME",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb029",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000029",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -429,7 +429,7 @@
             "name": "D_CITY",
             "dataType": "string",
             "sourceColumn": "D_CITY",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb030",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000030",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -442,7 +442,7 @@
             "name": "D_STATE_PROV",
             "dataType": "string",
             "sourceColumn": "D_STATE_PROV",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb031",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000031",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -455,7 +455,7 @@
             "name": "D_POSTAL_CODE",
             "dataType": "string",
             "sourceColumn": "D_POSTAL_CODE",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb032",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000032",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -468,7 +468,7 @@
             "name": "D_COUNTRY_CODE",
             "dataType": "string",
             "sourceColumn": "D_COUNTRY_CODE",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb033",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000033",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -481,7 +481,7 @@
             "name": "ASSIGNED_CARRIER_CODE",
             "dataType": "string",
             "sourceColumn": "ASSIGNED_CARRIER_CODE",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb034",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000034",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -494,7 +494,7 @@
             "name": "DSG_CARRIER_CODE",
             "dataType": "string",
             "sourceColumn": "DSG_CARRIER_CODE",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb035",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000035",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -507,7 +507,7 @@
             "name": "EQUIPMENT_TYPE",
             "dataType": "string",
             "sourceColumn": "EQUIPMENT_TYPE",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb036",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000036",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -520,7 +520,7 @@
             "name": "TRAILER_NUMBER",
             "dataType": "string",
             "sourceColumn": "TRAILER_NUMBER",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb037",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000037",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -533,7 +533,7 @@
             "name": "TRLR_TYPE",
             "dataType": "string",
             "sourceColumn": "TRLR_TYPE",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb038",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000038",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -546,7 +546,7 @@
             "name": "TRLR_SIZE",
             "dataType": "string",
             "sourceColumn": "TRLR_SIZE",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb039",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000039",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -559,7 +559,7 @@
             "name": "DISTANCE",
             "dataType": "double",
             "sourceColumn": "DISTANCE",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb040",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000040",
             "summarizeBy": "sum",
             "annotations": [
               {
@@ -576,7 +576,7 @@
             "name": "DIRECT_DISTANCE",
             "dataType": "double",
             "sourceColumn": "DIRECT_DISTANCE",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb041",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000041",
             "summarizeBy": "sum",
             "annotations": [
               {
@@ -593,7 +593,7 @@
             "name": "OUT_OF_ROUTE_DISTANCE",
             "dataType": "double",
             "sourceColumn": "OUT_OF_ROUTE_DISTANCE",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb042",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000042",
             "summarizeBy": "sum",
             "annotations": [
               {
@@ -610,7 +610,7 @@
             "name": "DISTANCE_UOM",
             "dataType": "string",
             "sourceColumn": "DISTANCE_UOM",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb043",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000043",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -624,7 +624,7 @@
             "dataType": "int64",
             "sourceColumn": "NUM_STOPS",
             "formatString": "0",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb044",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000044",
             "summarizeBy": "sum",
             "annotations": [
               {
@@ -637,7 +637,7 @@
             "name": "PLANNED_WEIGHT",
             "dataType": "double",
             "sourceColumn": "PLANNED_WEIGHT",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb045",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000045",
             "summarizeBy": "sum",
             "annotations": [
               {
@@ -654,7 +654,7 @@
             "name": "PLANNED_VOLUME",
             "dataType": "double",
             "sourceColumn": "PLANNED_VOLUME",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb046",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000046",
             "summarizeBy": "sum",
             "annotations": [
               {
@@ -671,7 +671,7 @@
             "name": "TOTAL_COST",
             "dataType": "double",
             "sourceColumn": "TOTAL_COST",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb047",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000047",
             "summarizeBy": "sum",
             "annotations": [
               {
@@ -688,7 +688,7 @@
             "name": "ACTUAL_COST",
             "dataType": "double",
             "sourceColumn": "ACTUAL_COST",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb048",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000048",
             "summarizeBy": "sum",
             "annotations": [
               {
@@ -705,7 +705,7 @@
             "name": "ESTIMATED_COST",
             "dataType": "double",
             "sourceColumn": "ESTIMATED_COST",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb049",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000049",
             "summarizeBy": "sum",
             "annotations": [
               {
@@ -722,7 +722,7 @@
             "name": "LINEHAUL_COST",
             "dataType": "double",
             "sourceColumn": "LINEHAUL_COST",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb050",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000050",
             "summarizeBy": "sum",
             "annotations": [
               {
@@ -739,7 +739,7 @@
             "name": "ACCESSORIAL_COST",
             "dataType": "double",
             "sourceColumn": "ACCESSORIAL_COST",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb051",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000051",
             "summarizeBy": "sum",
             "annotations": [
               {
@@ -756,7 +756,7 @@
             "name": "CURRENCY_CODE",
             "dataType": "string",
             "sourceColumn": "CURRENCY_CODE",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb052",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000052",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -770,7 +770,7 @@
             "dataType": "int64",
             "sourceColumn": "DAYS_TO_DELIVER",
             "formatString": "0",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb053",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000053",
             "summarizeBy": "sum",
             "annotations": [
               {
@@ -783,148 +783,12 @@
             "name": "IS_HAZMAT",
             "dataType": "string",
             "sourceColumn": "IS_HAZMAT",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb054",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000054",
             "summarizeBy": "none",
             "annotations": [
               {
                 "name": "SummarizationSetBy",
                 "value": "Automatic"
-              }
-            ]
-          },
-          {
-            "name": "IS_PERISHABLE",
-            "dataType": "string",
-            "sourceColumn": "IS_PERISHABLE",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb055",
-            "summarizeBy": "none",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ]
-          },
-          {
-            "name": "BILL_TO_CODE",
-            "dataType": "string",
-            "sourceColumn": "BILL_TO_CODE",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb056",
-            "summarizeBy": "none",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ]
-          },
-          {
-            "name": "BILL_OF_LADING_NUMBER",
-            "dataType": "string",
-            "sourceColumn": "BILL_OF_LADING_NUMBER",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb057",
-            "summarizeBy": "none",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ]
-          },
-          {
-            "name": "ASSIGNED_SERVICE_LEVEL_ID",
-            "dataType": "string",
-            "sourceColumn": "ASSIGNED_SERVICE_LEVEL_ID",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb058",
-            "summarizeBy": "none",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ]
-          },
-          {
-            "name": "VENDOR_NAME",
-            "dataType": "string",
-            "sourceColumn": "VENDOR_NAME",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb059",
-            "summarizeBy": "none",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ]
-          },
-          {
-            "name": "FISCAL_YEAR_WEEK",
-            "dataType": "int64",
-            "sourceColumn": "FISCAL_YEAR_WEEK",
-            "formatString": "0",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb060",
-            "summarizeBy": "sum",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ]
-          },
-          {
-            "name": "FISCAL_YEAR_MONTH",
-            "dataType": "int64",
-            "sourceColumn": "FISCAL_YEAR_MONTH",
-            "formatString": "0",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb061",
-            "summarizeBy": "sum",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ]
-          },
-          {
-            "name": "carrier_key",
-            "dataType": "string",
-            "sourceColumn": "carrier_key",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb062",
-            "summarizeBy": "none",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ]
-          },
-          {
-            "name": "facility_key",
-            "dataType": "string",
-            "sourceColumn": "facility_key",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb063",
-            "summarizeBy": "none",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              }
-            ]
-          },
-          {
-            "name": "TOTAL_REVENUE",
-            "dataType": "double",
-            "sourceColumn": "TOTAL_REVENUE",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb064",
-            "summarizeBy": "sum",
-            "annotations": [
-              {
-                "name": "SummarizationSetBy",
-                "value": "Automatic"
-              },
-              {
-                "name": "PBI_FormatHint",
-                "value": "{\"isGeneralNumber\":true}"
               }
             ]
           },
@@ -932,7 +796,7 @@
             "name": "ON_TIME_FLAG",
             "dataType": "string",
             "sourceColumn": "ON_TIME_FLAG",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb065",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000055",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -945,7 +809,7 @@
             "name": "COST_PER_MILE",
             "dataType": "double",
             "sourceColumn": "COST_PER_MILE",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb066",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000056",
             "summarizeBy": "sum",
             "annotations": [
               {
@@ -963,7 +827,7 @@
             "dataType": "dateTime",
             "sourceColumn": "load_date",
             "formatString": "General Date",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb067",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000057",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -981,7 +845,7 @@
             "dataType": "dateTime",
             "sourceColumn": "update_date",
             "formatString": "General Date",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb068",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000058",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -998,7 +862,7 @@
             "name": "source_system",
             "dataType": "string",
             "sourceColumn": "source_system",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb069",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000059",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -1072,16 +936,6 @@
                 "        {\"CURRENCY_CODE\", type text},",
                 "        {\"DAYS_TO_DELIVER\", Int64.Type},",
                 "        {\"IS_HAZMAT\", type text},",
-                "        {\"IS_PERISHABLE\", type text},",
-                "        {\"BILL_TO_CODE\", type text},",
-                "        {\"BILL_OF_LADING_NUMBER\", type text},",
-                "        {\"ASSIGNED_SERVICE_LEVEL_ID\", type text},",
-                "        {\"VENDOR_NAME\", type text},",
-                "        {\"FISCAL_YEAR_WEEK\", Int64.Type},",
-                "        {\"FISCAL_YEAR_MONTH\", Int64.Type},",
-                "        {\"carrier_key\", type text},",
-                "        {\"facility_key\", type text},",
-                "        {\"TOTAL_REVENUE\", type number},",
                 "        {\"ON_TIME_FLAG\", type text},",
                 "        {\"COST_PER_MILE\", type number},",
                 "        {\"load_date\", type datetime},",
@@ -1107,7 +961,7 @@
       },
       {
         "name": "MeasureTable",
-        "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb070",
+        "lineageTag": "a1c1b2d3-1000-2000-3000-400000000060",
         "partitions": [
           {
             "name": "MeasureTable",
@@ -1116,7 +970,7 @@
               "type": "m",
               "expression": [
                 "let",
-                "    Source = #table(type table [Dummy = text],{ {\"X\"}}),",
+                "    Source = #table(type table [Dummy = text], ),",
                 "    Result = Table.RemoveColumns(Source, {\"Dummy\"})",
                 "in",
                 "    Result"
@@ -1129,7 +983,7 @@
             "name": "Total Row Count",
             "expression": "COUNTROWS('go_shipment_facts')",
             "formatString": "#,0",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb071",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000061",
             "annotations": [
               {
                 "name": "PBI_FormatHint",
@@ -1138,10 +992,10 @@
             ]
           },
           {
-            "name": "Distinct SHIPMENT_ID Count",
-            "expression": "DISTINCTCOUNT('go_shipment_facts'[SHIPMENT_ID])",
+            "name": "Distinct id Count",
+            "expression": "DISTINCTCOUNT('go_shipment_facts'[id])",
             "formatString": "#,0",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb072",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000062",
             "annotations": [
               {
                 "name": "PBI_FormatHint",
@@ -1153,7 +1007,7 @@
             "name": "Total DISTANCE",
             "expression": "SUM('go_shipment_facts'[DISTANCE])",
             "formatString": "#,0",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb073",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000063",
             "annotations": [
               {
                 "name": "PBI_FormatHint",
@@ -1165,7 +1019,7 @@
             "name": "Avg DISTANCE",
             "expression": "AVERAGE('go_shipment_facts'[DISTANCE])",
             "formatString": "#,0.00",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb074",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000064",
             "annotations": [
               {
                 "name": "PBI_FormatHint",
@@ -1177,7 +1031,7 @@
             "name": "Total DIRECT_DISTANCE",
             "expression": "SUM('go_shipment_facts'[DIRECT_DISTANCE])",
             "formatString": "#,0",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb075",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000065",
             "annotations": [
               {
                 "name": "PBI_FormatHint",
@@ -1189,7 +1043,7 @@
             "name": "Avg DIRECT_DISTANCE",
             "expression": "AVERAGE('go_shipment_facts'[DIRECT_DISTANCE])",
             "formatString": "#,0.00",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb076",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000066",
             "annotations": [
               {
                 "name": "PBI_FormatHint",
@@ -1201,7 +1055,7 @@
             "name": "Total OUT_OF_ROUTE_DISTANCE",
             "expression": "SUM('go_shipment_facts'[OUT_OF_ROUTE_DISTANCE])",
             "formatString": "#,0",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb077",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000067",
             "annotations": [
               {
                 "name": "PBI_FormatHint",
@@ -1213,7 +1067,7 @@
             "name": "Avg OUT_OF_ROUTE_DISTANCE",
             "expression": "AVERAGE('go_shipment_facts'[OUT_OF_ROUTE_DISTANCE])",
             "formatString": "#,0.00",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb078",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000068",
             "annotations": [
               {
                 "name": "PBI_FormatHint",
@@ -1225,7 +1079,7 @@
             "name": "Total NUM_STOPS",
             "expression": "SUM('go_shipment_facts'[NUM_STOPS])",
             "formatString": "#,0",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb079",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000069",
             "annotations": [
               {
                 "name": "PBI_FormatHint",
@@ -1237,7 +1091,7 @@
             "name": "Avg NUM_STOPS",
             "expression": "AVERAGE('go_shipment_facts'[NUM_STOPS])",
             "formatString": "#,0.00",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb080",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000070",
             "annotations": [
               {
                 "name": "PBI_FormatHint",
@@ -1249,7 +1103,7 @@
             "name": "Total PLANNED_WEIGHT",
             "expression": "SUM('go_shipment_facts'[PLANNED_WEIGHT])",
             "formatString": "#,0",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb081",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000071",
             "annotations": [
               {
                 "name": "PBI_FormatHint",
@@ -1261,7 +1115,7 @@
             "name": "Avg PLANNED_WEIGHT",
             "expression": "AVERAGE('go_shipment_facts'[PLANNED_WEIGHT])",
             "formatString": "#,0.00",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb082",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000072",
             "annotations": [
               {
                 "name": "PBI_FormatHint",
@@ -1273,7 +1127,7 @@
             "name": "Total PLANNED_VOLUME",
             "expression": "SUM('go_shipment_facts'[PLANNED_VOLUME])",
             "formatString": "#,0",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb083",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000073",
             "annotations": [
               {
                 "name": "PBI_FormatHint",
@@ -1285,7 +1139,7 @@
             "name": "Avg PLANNED_VOLUME",
             "expression": "AVERAGE('go_shipment_facts'[PLANNED_VOLUME])",
             "formatString": "#,0.00",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb084",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000074",
             "annotations": [
               {
                 "name": "PBI_FormatHint",
@@ -1297,7 +1151,7 @@
             "name": "Total TOTAL_COST",
             "expression": "SUM('go_shipment_facts'[TOTAL_COST])",
             "formatString": "#,0",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb085",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000075",
             "annotations": [
               {
                 "name": "PBI_FormatHint",
@@ -1309,7 +1163,151 @@
             "name": "Avg TOTAL_COST",
             "expression": "AVERAGE('go_shipment_facts'[TOTAL_COST])",
             "formatString": "#,0.00",
-            "lineageTag": "e2f1c670-7b77-4f31-9c12-0bb0e5bfb086",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000076",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "Total ACTUAL_COST",
+            "expression": "SUM('go_shipment_facts'[ACTUAL_COST])",
+            "formatString": "#,0",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000077",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "Avg ACTUAL_COST",
+            "expression": "AVERAGE('go_shipment_facts'[ACTUAL_COST])",
+            "formatString": "#,0.00",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000078",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "Total ESTIMATED_COST",
+            "expression": "SUM('go_shipment_facts'[ESTIMATED_COST])",
+            "formatString": "#,0",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000079",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "Avg ESTIMATED_COST",
+            "expression": "AVERAGE('go_shipment_facts'[ESTIMATED_COST])",
+            "formatString": "#,0.00",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000080",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "Total LINEHAUL_COST",
+            "expression": "SUM('go_shipment_facts'[LINEHAUL_COST])",
+            "formatString": "#,0",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000081",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "Avg LINEHAUL_COST",
+            "expression": "AVERAGE('go_shipment_facts'[LINEHAUL_COST])",
+            "formatString": "#,0.00",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000082",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "Total ACCESSORIAL_COST",
+            "expression": "SUM('go_shipment_facts'[ACCESSORIAL_COST])",
+            "formatString": "#,0",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000083",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "Avg ACCESSORIAL_COST",
+            "expression": "AVERAGE('go_shipment_facts'[ACCESSORIAL_COST])",
+            "formatString": "#,0.00",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000084",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "Total DAYS_TO_DELIVER",
+            "expression": "SUM('go_shipment_facts'[DAYS_TO_DELIVER])",
+            "formatString": "#,0",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000085",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "Avg DAYS_TO_DELIVER",
+            "expression": "AVERAGE('go_shipment_facts'[DAYS_TO_DELIVER])",
+            "formatString": "#,0.00",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000086",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "Total COST_PER_MILE",
+            "expression": "SUM('go_shipment_facts'[COST_PER_MILE])",
+            "formatString": "#,0",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000087",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "Avg COST_PER_MILE",
+            "expression": "AVERAGE('go_shipment_facts'[COST_PER_MILE])",
+            "formatString": "#,0.00",
+            "lineageTag": "a1c1b2d3-1000-2000-3000-400000000088",
             "annotations": [
               {
                 "name": "PBI_FormatHint",
