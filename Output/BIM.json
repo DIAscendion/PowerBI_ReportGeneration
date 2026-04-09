@@ -1,0 +1,2194 @@
+{
+  "name": "TMS_Shipment_Analytics",
+  "compatibilityLevel": 1600,
+  "model": {
+    "culture": "en-IN",
+    "dataAccessOptions": {
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "sourceQueryCulture": "en-IN",
+    "tables": [
+      {
+        "name": "TMS_Shipment",
+        "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+        "columns": [
+          {
+            "name": "SHIPMENT_ID",
+            "dataType": "string",
+            "sourceColumn": "SHIPMENT_ID",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef1234567891",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "TC_SHIPMENT_ID",
+            "dataType": "string",
+            "sourceColumn": "TC_SHIPMENT_ID",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef1234567892",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "TC_COMPANY_ID",
+            "dataType": "string",
+            "sourceColumn": "TC_COMPANY_ID",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef1234567893",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "SHIPMENT_STATUS",
+            "dataType": "string",
+            "sourceColumn": "SHIPMENT_STATUS",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef1234567894",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "SHIPMENT_TYPE",
+            "dataType": "string",
+            "sourceColumn": "SHIPMENT_TYPE",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef1234567895",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "SHIPMENT_LEG_TYPE",
+            "dataType": "string",
+            "sourceColumn": "SHIPMENT_LEG_TYPE",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef1234567896",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "MOVE_TYPE",
+            "dataType": "string",
+            "sourceColumn": "MOVE_TYPE",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef1234567897",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "CREATED_DTTM",
+            "dataType": "dateTime",
+            "sourceColumn": "CREATED_DTTM",
+            "formatString": "General Date",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef1234567898",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "DateTime"
+              }
+            ]
+          },
+          {
+            "name": "CREATED_SOURCE",
+            "dataType": "string",
+            "sourceColumn": "CREATED_SOURCE",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef1234567899",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "CREATED_SOURCE_TYPE",
+            "dataType": "string",
+            "sourceColumn": "CREATED_SOURCE_TYPE",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef123456789a",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "LAST_UPDATED_DTTM",
+            "dataType": "dateTime",
+            "sourceColumn": "LAST_UPDATED_DTTM",
+            "formatString": "General Date",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef123456789b",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "DateTime"
+              }
+            ]
+          },
+          {
+            "name": "LAST_UPDATED_SOURCE",
+            "dataType": "string",
+            "sourceColumn": "LAST_UPDATED_SOURCE",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef123456789c",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "BILL_OF_LADING_NUMBER",
+            "dataType": "string",
+            "sourceColumn": "BILL_OF_LADING_NUMBER",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef123456789d",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "PRO_NUMBER",
+            "dataType": "string",
+            "sourceColumn": "PRO_NUMBER",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef123456789e",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "PURCHASE_ORDER",
+            "dataType": "string",
+            "sourceColumn": "PURCHASE_ORDER",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef123456789f",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "CONTRACT_NUMBER",
+            "dataType": "string",
+            "sourceColumn": "CONTRACT_NUMBER",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678a0",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "ASSIGNED_CARRIER_CODE",
+            "dataType": "string",
+            "sourceColumn": "ASSIGNED_CARRIER_CODE",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678a1",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "ASSIGNED_CARRIER_ID",
+            "dataType": "string",
+            "sourceColumn": "ASSIGNED_CARRIER_ID",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678a2",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "ASSIGNED_MOT_ID",
+            "dataType": "string",
+            "sourceColumn": "ASSIGNED_MOT_ID",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678a3",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "ASSIGNED_SERVICE_LEVEL_ID",
+            "dataType": "string",
+            "sourceColumn": "ASSIGNED_SERVICE_LEVEL_ID",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678a4",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "ASSIGNED_SHIP_VIA",
+            "dataType": "string",
+            "sourceColumn": "ASSIGNED_SHIP_VIA",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678a5",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "EQUIPMENT_TYPE",
+            "dataType": "string",
+            "sourceColumn": "EQUIPMENT_TYPE",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678a6",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "TRLR_TYPE",
+            "dataType": "string",
+            "sourceColumn": "TRLR_TYPE",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678a7",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "TRLR_SIZE",
+            "dataType": "string",
+            "sourceColumn": "TRLR_SIZE",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678a8",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "TRAILER_NUMBER",
+            "dataType": "string",
+            "sourceColumn": "TRAILER_NUMBER",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678a9",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "TRACTOR_NUMBER",
+            "dataType": "string",
+            "sourceColumn": "TRACTOR_NUMBER",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678aa",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "SEAL_NUMBER",
+            "dataType": "string",
+            "sourceColumn": "SEAL_NUMBER",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678ab",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "O_FACILITY_ID",
+            "dataType": "string",
+            "sourceColumn": "O_FACILITY_ID",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678ac",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "O_FACILITY_NUMBER",
+            "dataType": "int64",
+            "sourceColumn": "O_FACILITY_NUMBER",
+            "formatString": "0",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678ad",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "O_STOP_LOCATION_NAME",
+            "dataType": "string",
+            "sourceColumn": "O_STOP_LOCATION_NAME",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678ae",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "O_ADDRESS",
+            "dataType": "string",
+            "sourceColumn": "O_ADDRESS",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678af",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "O_CITY",
+            "dataType": "string",
+            "sourceColumn": "O_CITY",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678b0",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "O_STATE_PROV",
+            "dataType": "string",
+            "sourceColumn": "O_STATE_PROV",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678b1",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "O_POSTAL_CODE",
+            "dataType": "string",
+            "sourceColumn": "O_POSTAL_CODE",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678b2",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "O_COUNTRY_CODE",
+            "dataType": "string",
+            "sourceColumn": "O_COUNTRY_CODE",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678b3",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "D_FACILITY_ID",
+            "dataType": "string",
+            "sourceColumn": "D_FACILITY_ID",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678b4",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "D_FACILITY_NUMBER",
+            "dataType": "int64",
+            "sourceColumn": "D_FACILITY_NUMBER",
+            "formatString": "0",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678b5",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "D_STOP_LOCATION_NAME",
+            "dataType": "string",
+            "sourceColumn": "D_STOP_LOCATION_NAME",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678b6",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "D_ADDRESS",
+            "dataType": "string",
+            "sourceColumn": "D_ADDRESS",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678b7",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "D_CITY",
+            "dataType": "string",
+            "sourceColumn": "D_CITY",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678b8",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "D_STATE_PROV",
+            "dataType": "string",
+            "sourceColumn": "D_STATE_PROV",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678b9",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "D_POSTAL_CODE",
+            "dataType": "string",
+            "sourceColumn": "D_POSTAL_CODE",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678ba",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "D_COUNTRY_CODE",
+            "dataType": "string",
+            "sourceColumn": "D_COUNTRY_CODE",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678bb",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "PICKUP_START_DATE",
+            "dataType": "dateTime",
+            "sourceColumn": "PICKUP_START_DATE",
+            "formatString": "General Date",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678bc",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "DateTime"
+              }
+            ]
+          },
+          {
+            "name": "PICKUP_END_DTTM",
+            "dataType": "dateTime",
+            "sourceColumn": "PICKUP_END_DTTM",
+            "formatString": "General Date",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678bd",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "DateTime"
+              }
+            ]
+          },
+          {
+            "name": "PICKUP_TZ",
+            "dataType": "string",
+            "sourceColumn": "PICKUP_TZ",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678be",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "DELIVERY_START_DTTM",
+            "dataType": "dateTime",
+            "sourceColumn": "DELIVERY_START_DTTM",
+            "formatString": "General Date",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678bf",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "DateTime"
+              }
+            ]
+          },
+          {
+            "name": "DELIVERY_END_DTTM",
+            "dataType": "dateTime",
+            "sourceColumn": "DELIVERY_END_DTTM",
+            "formatString": "General Date",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678c0",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "DateTime"
+              }
+            ]
+          },
+          {
+            "name": "DELIVERY_TZ",
+            "dataType": "string",
+            "sourceColumn": "DELIVERY_TZ",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678c1",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "SCHEDULED_PICKUP_DTTM",
+            "dataType": "dateTime",
+            "sourceColumn": "SCHEDULED_PICKUP_DTTM",
+            "formatString": "General Date",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678c2",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "DateTime"
+              }
+            ]
+          },
+          {
+            "name": "SHIPMENT_START_DTTM",
+            "dataType": "dateTime",
+            "sourceColumn": "SHIPMENT_START_DTTM",
+            "formatString": "General Date",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678c3",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "DateTime"
+              }
+            ]
+          },
+          {
+            "name": "SHIPMENT_END_DTTM",
+            "dataType": "dateTime",
+            "sourceColumn": "SHIPMENT_END_DTTM",
+            "formatString": "General Date",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678c4",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "DateTime"
+              }
+            ]
+          },
+          {
+            "name": "RECEIVED_DTTM",
+            "dataType": "dateTime",
+            "sourceColumn": "RECEIVED_DTTM",
+            "formatString": "General Date",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678c5",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "DateTime"
+              }
+            ]
+          },
+          {
+            "name": "TENDER_DTTM",
+            "dataType": "dateTime",
+            "sourceColumn": "TENDER_DTTM",
+            "formatString": "General Date",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678c6",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "DateTime"
+              }
+            ]
+          },
+          {
+            "name": "TENDER_RESP_DEADLINE_DATE",
+            "dataType": "dateTime",
+            "sourceColumn": "TENDER_RESP_DEADLINE_DATE",
+            "formatString": "General Date",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678c7",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "DateTime"
+              }
+            ]
+          },
+          {
+            "name": "DAYS_TO_DELIVER",
+            "dataType": "int64",
+            "sourceColumn": "DAYS_TO_DELIVER",
+            "formatString": "0",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678c8",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "TOTAL_TIME",
+            "dataType": "double",
+            "sourceColumn": "TOTAL_TIME",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678c9",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "PLANNED_WEIGHT",
+            "dataType": "double",
+            "sourceColumn": "PLANNED_WEIGHT",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678ca",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "PLANNED_VOLUME",
+            "dataType": "double",
+            "sourceColumn": "PLANNED_VOLUME",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678cb",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "FINANCIAL_WT",
+            "dataType": "double",
+            "sourceColumn": "FINANCIAL_WT",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678cc",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "WEIGHT_UOM_ID_BASE",
+            "dataType": "string",
+            "sourceColumn": "WEIGHT_UOM_ID_BASE",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678cd",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "VOLUME_UOM_ID_BASE",
+            "dataType": "string",
+            "sourceColumn": "VOLUME_UOM_ID_BASE",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678ce",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "DISTANCE",
+            "dataType": "double",
+            "sourceColumn": "DISTANCE",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678cf",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "DIRECT_DISTANCE",
+            "dataType": "double",
+            "sourceColumn": "DIRECT_DISTANCE",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678d0",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "DISTANCE_UOM",
+            "dataType": "string",
+            "sourceColumn": "DISTANCE_UOM",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678d1",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "EQUIP_UTIL_PER",
+            "dataType": "double",
+            "sourceColumn": "EQUIP_UTIL_PER",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678d2",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "NUM_STOPS",
+            "dataType": "int64",
+            "sourceColumn": "NUM_STOPS",
+            "formatString": "0",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678d3",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "CURRENCY_CODE",
+            "dataType": "string",
+            "sourceColumn": "CURRENCY_CODE",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678d4",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "PLN_TOTAL_COST",
+            "dataType": "double",
+            "sourceColumn": "PLN_TOTAL_COST",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678d5",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "PLN_LINEHAUL_COST",
+            "dataType": "double",
+            "sourceColumn": "PLN_LINEHAUL_COST",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678d6",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "PLN_TOTAL_ACCESSORIAL_COST",
+            "dataType": "double",
+            "sourceColumn": "PLN_TOTAL_ACCESSORIAL_COST",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678d7",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "PLN_STOP_OFF_COST",
+            "dataType": "double",
+            "sourceColumn": "PLN_STOP_OFF_COST",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678d8",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "PLN_CURRENCY_CODE",
+            "dataType": "string",
+            "sourceColumn": "PLN_CURRENCY_CODE",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678d9",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "ESTIMATED_COST",
+            "dataType": "double",
+            "sourceColumn": "ESTIMATED_COST",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678da",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "ACTUAL_COST",
+            "dataType": "double",
+            "sourceColumn": "ACTUAL_COST",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678db",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "ACTUAL_COST_CURRENCY_CODE",
+            "dataType": "string",
+            "sourceColumn": "ACTUAL_COST_CURRENCY_CODE",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678dc",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "TOTAL_COST",
+            "dataType": "double",
+            "sourceColumn": "TOTAL_COST",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678dd",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "TOTAL_COST_EXCL_TAX",
+            "dataType": "double",
+            "sourceColumn": "TOTAL_COST_EXCL_TAX",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678de",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "TOTAL_TAX_AMOUNT",
+            "dataType": "double",
+            "sourceColumn": "TOTAL_TAX_AMOUNT",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678df",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "LINEHAUL_COST",
+            "dataType": "double",
+            "sourceColumn": "LINEHAUL_COST",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678e0",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "ACCESSORIAL_COST",
+            "dataType": "double",
+            "sourceColumn": "ACCESSORIAL_COST",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678e1",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "STOP_COST",
+            "dataType": "double",
+            "sourceColumn": "STOP_COST",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678e2",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "CARRIER_CHARGE",
+            "dataType": "double",
+            "sourceColumn": "CARRIER_CHARGE",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678e3",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "ESTIMATED_SAVINGS",
+            "dataType": "double",
+            "sourceColumn": "ESTIMATED_SAVINGS",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678e4",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "REPORTED_COST",
+            "dataType": "double",
+            "sourceColumn": "REPORTED_COST",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678e5",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "TOTAL_REVENUE",
+            "dataType": "double",
+            "sourceColumn": "TOTAL_REVENUE",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678e6",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "TOTAL_REVENUE_CURRENCY_CODE",
+            "dataType": "string",
+            "sourceColumn": "TOTAL_REVENUE_CURRENCY_CODE",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678e7",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "MARGIN",
+            "dataType": "double",
+            "sourceColumn": "MARGIN",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678e8",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "IS_HAZMAT",
+            "dataType": "string",
+            "sourceColumn": "IS_HAZMAT",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678e9",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "IS_PERISHABLE",
+            "dataType": "string",
+            "sourceColumn": "IS_PERISHABLE",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678ea",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "IS_SHIPMENT_CANCELLED",
+            "dataType": "string",
+            "sourceColumn": "IS_SHIPMENT_CANCELLED",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678eb",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "IS_SHIPMENT_RECONCILED",
+            "dataType": "string",
+            "sourceColumn": "IS_SHIPMENT_RECONCILED",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678ec",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "IS_MANUAL_ASSIGN",
+            "dataType": "string",
+            "sourceColumn": "IS_MANUAL_ASSIGN",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678ed",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "IS_BOOKING_REQUIRED",
+            "dataType": "string",
+            "sourceColumn": "IS_BOOKING_REQUIRED",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678ee",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "SHIPMENT_CLOSED_INDICATOR",
+            "dataType": "string",
+            "sourceColumn": "SHIPMENT_CLOSED_INDICATOR",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678ef",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "HAS_ALERTS",
+            "dataType": "string",
+            "sourceColumn": "HAS_ALERTS",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678f0",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "HAS_TRACKING_MSG",
+            "dataType": "string",
+            "sourceColumn": "HAS_TRACKING_MSG",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678f1",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "HAS_NOTES",
+            "dataType": "string",
+            "sourceColumn": "HAS_NOTES",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678f2",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "ON_TIME_INDICATOR",
+            "dataType": "string",
+            "sourceColumn": "ON_TIME_INDICATOR",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678f3",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "DROPOFF_PICKUP",
+            "dataType": "string",
+            "sourceColumn": "DROPOFF_PICKUP",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678f4",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "PLN_MIN_TEMPERATURE",
+            "dataType": "double",
+            "sourceColumn": "PLN_MIN_TEMPERATURE",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678f5",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "PLN_MAX_TEMPERATURE",
+            "dataType": "double",
+            "sourceColumn": "PLN_MAX_TEMPERATURE",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678f6",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "TEMPERATURE_UOM",
+            "dataType": "string",
+            "sourceColumn": "TEMPERATURE_UOM",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678f7",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "CUSTOMER_ID",
+            "dataType": "string",
+            "sourceColumn": "CUSTOMER_ID",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678f8",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "BILL_TO_NAME",
+            "dataType": "string",
+            "sourceColumn": "BILL_TO_NAME",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678f9",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "BILL_TO_ADDRESS",
+            "dataType": "string",
+            "sourceColumn": "BILL_TO_ADDRESS",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678fa",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "BILL_TO_CITY",
+            "dataType": "string",
+            "sourceColumn": "BILL_TO_CITY",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678fb",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "BILL_TO_STATE_PROV",
+            "dataType": "string",
+            "sourceColumn": "BILL_TO_STATE_PROV",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678fc",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "BILL_TO_POSTAL_CODE",
+            "dataType": "string",
+            "sourceColumn": "BILL_TO_POSTAL_CODE",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678fd",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "BILL_TO_COUNTRY_CODE",
+            "dataType": "string",
+            "sourceColumn": "BILL_TO_COUNTRY_CODE",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678fe",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "BILL_TO_CODE",
+            "dataType": "string",
+            "sourceColumn": "BILL_TO_CODE",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345678ff",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "BILLING_METHOD",
+            "dataType": "string",
+            "sourceColumn": "BILLING_METHOD",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef123456790a",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "COMMODITY_CLASS",
+            "dataType": "int64",
+            "sourceColumn": "COMMODITY_CLASS",
+            "formatString": "0",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef123456790b",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "PACKAGING",
+            "dataType": "string",
+            "sourceColumn": "PACKAGING",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef123456790c",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "ORDER_QTY",
+            "dataType": "double",
+            "sourceColumn": "ORDER_QTY",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef123456790d",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "DECLARED_VALUE",
+            "dataType": "double",
+            "sourceColumn": "DECLARED_VALUE",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef123456790e",
+            "summarizeBy": "sum",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "DV_CURRENCY_CODE",
+            "dataType": "string",
+            "sourceColumn": "DV_CURRENCY_CODE",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef123456790f",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "TRANS_RESP_CODE",
+            "dataType": "string",
+            "sourceColumn": "TRANS_RESP_CODE",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345679a0",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "PRIORITY_TYPE",
+            "dataType": "string",
+            "sourceColumn": "PRIORITY_TYPE",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345679a1",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "LANE_NAME",
+            "dataType": "string",
+            "sourceColumn": "LANE_NAME",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345679a2",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "REGION_ID",
+            "dataType": "string",
+            "sourceColumn": "REGION_ID",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345679a3",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "SENT_TO_PKMS",
+            "dataType": "string",
+            "sourceColumn": "SENT_TO_PKMS",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345679a4",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "FIRST_UPDATE_SENT_TO_PKMS",
+            "dataType": "string",
+            "sourceColumn": "FIRST_UPDATE_SENT_TO_PKMS",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345679a5",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "UPDATE_SENT",
+            "dataType": "string",
+            "sourceColumn": "UPDATE_SENT",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345679a6",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "WMS_STATUS_CODE",
+            "dataType": "string",
+            "sourceColumn": "WMS_STATUS_CODE",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345679a7",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ]
+          },
+          {
+            "name": "EXTRACTION_DTTM",
+            "dataType": "dateTime",
+            "sourceColumn": "EXTRACTION_DTTM",
+            "formatString": "General Date",
+            "lineageTag": "a1b2c3d4-e5f6-7890-abcd-ef12345679a8",
+            "summarizeBy": "none",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              },
+              {
+                "name": "UnderlyingDateTimeDataType",
+                "value": "DateTime"
+              }
+            ]
+          }
+        ],
+        "partitions": [
+          {
+            "name": "TMS_Shipment",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Csv.Document(File.Contents(\"data.csv\"), [Delimiter=\",\", Encoding=65001, QuoteStyle=QuoteStyle.Csv]),",
+                "    #\"Promoted Headers\" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),",
+                "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{",
+                "        {\"SHIPMENT_ID\", type text},",
+                "        {\"TC_SHIPMENT_ID\", type text},",
+                "        {\"TC_COMPANY_ID\", type text},",
+                "        {\"SHIPMENT_STATUS\", type text},",
+                "        {\"SHIPMENT_TYPE\", type text},",
+                "        {\"SHIPMENT_LEG_TYPE\", type text},",
+                "        {\"MOVE_TYPE\", type text},",
+                "        {\"CREATED_DTTM\", type datetime},",
+                "        {\"CREATED_SOURCE\", type text},",
+                "        {\"CREATED_SOURCE_TYPE\", type text},",
+                "        {\"LAST_UPDATED_DTTM\", type datetime},",
+                "        {\"LAST_UPDATED_SOURCE\", type text},",
+                "        {\"BILL_OF_LADING_NUMBER\", type text},",
+                "        {\"PRO_NUMBER\", type text},",
+                "        {\"PURCHASE_ORDER\", type text},",
+                "        {\"CONTRACT_NUMBER\", type text},",
+                "        {\"ASSIGNED_CARRIER_CODE\", type text},",
+                "        {\"ASSIGNED_CARRIER_ID\", type text},",
+                "        {\"ASSIGNED_MOT_ID\", type text},",
+                "        {\"ASSIGNED_SERVICE_LEVEL_ID\", type text},",
+                "        {\"ASSIGNED_SHIP_VIA\", type text},",
+                "        {\"EQUIPMENT_TYPE\", type text},",
+                "        {\"TRLR_TYPE\", type text},",
+                "        {\"TRLR_SIZE\", type text},",
+                "        {\"TRAILER_NUMBER\", type text},",
+                "        {\"TRACTOR_NUMBER\", type text},",
+                "        {\"SEAL_NUMBER\", type text},",
+                "        {\"O_FACILITY_ID\", type text},",
+                "        {\"O_FACILITY_NUMBER\", Int64.Type},",
+                "        {\"O_STOP_LOCATION_NAME\", type text},",
+                "        {\"O_ADDRESS\", type text},",
+                "        {\"O_CITY\", type text},",
+                "        {\"O_STATE_PROV\", type text},",
+                "        {\"O_POSTAL_CODE\", type text},",
+                "        {\"O_COUNTRY_CODE\", type text},",
+                "        {\"D_FACILITY_ID\", type text},",
+                "        {\"D_FACILITY_NUMBER\", Int64.Type},",
+                "        {\"D_STOP_LOCATION_NAME\", type text},",
+                "        {\"D_ADDRESS\", type text},",
+                "        {\"D_CITY\", type text},",
+                "        {\"D_STATE_PROV\", type text},",
+                "        {\"D_POSTAL_CODE\", type text},",
+                "        {\"D_COUNTRY_CODE\", type text},",
+                "        {\"PICKUP_START_DATE\", type datetime},",
+                "        {\"PICKUP_END_DTTM\", type datetime},",
+                "        {\"PICKUP_TZ\", type text},",
+                "        {\"DELIVERY_START_DTTM\", type datetime},",
+                "        {\"DELIVERY_END_DTTM\", type datetime},",
+                "        {\"DELIVERY_TZ\", type text},",
+                "        {\"SCHEDULED_PICKUP_DTTM\", type datetime},",
+                "        {\"SHIPMENT_START_DTTM\", type datetime},",
+                "        {\"SHIPMENT_END_DTTM\", type datetime},",
+                "        {\"RECEIVED_DTTM\", type datetime},",
+                "        {\"TENDER_DTTM\", type datetime},",
+                "        {\"TENDER_RESP_DEADLINE_DATE\", type datetime},",
+                "        {\"DAYS_TO_DELIVER\", Int64.Type},",
+                "        {\"TOTAL_TIME\", type number},",
+                "        {\"PLANNED_WEIGHT\", type number},",
+                "        {\"PLANNED_VOLUME\", type number},",
+                "        {\"FINANCIAL_WT\", type number},",
+                "        {\"WEIGHT_UOM_ID_BASE\", type text},",
+                "        {\"VOLUME_UOM_ID_BASE\", type text},",
+                "        {\"DISTANCE\", type number},",
+                "        {\"DIRECT_DISTANCE\", type number},",
+                "        {\"DISTANCE_UOM\", type text},",
+                "        {\"EQUIP_UTIL_PER\", type number},",
+                "        {\"NUM_STOPS\", Int64.Type},",
+                "        {\"CURRENCY_CODE\", type text},",
+                "        {\"PLN_TOTAL_COST\", type number},",
+                "        {\"PLN_LINEHAUL_COST\", type number},",
+                "        {\"PLN_TOTAL_ACCESSORIAL_COST\", type number},",
+                "        {\"PLN_STOP_OFF_COST\", type number},",
+                "        {\"PLN_CURRENCY_CODE\", type text},",
+                "        {\"ESTIMATED_COST\", type number},",
+                "        {\"ACTUAL_COST\", type number},",
+                "        {\"ACTUAL_COST_CURRENCY_CODE\", type text},",
+                "        {\"TOTAL_COST\", type number},",
+                "        {\"TOTAL_COST_EXCL_TAX\", type number},",
+                "        {\"TOTAL_TAX_AMOUNT\", type number},",
+                "        {\"LINEHAUL_COST\", type number},",
+                "        {\"ACCESSORIAL_COST\", type number},",
+                "        {\"STOP_COST\", type number},",
+                "        {\"CARRIER_CHARGE\", type number},",
+                "        {\"ESTIMATED_SAVINGS\", type number},",
+                "        {\"REPORTED_COST\", type number},",
+                "        {\"TOTAL_REVENUE\", type number},",
+                "        {\"TOTAL_REVENUE_CURRENCY_CODE\", type text},",
+                "        {\"MARGIN\", type number},",
+                "        {\"IS_HAZMAT\", type text},",
+                "        {\"IS_PERISHABLE\", type text},",
+                "        {\"IS_SHIPMENT_CANCELLED\", type text},",
+                "        {\"IS_SHIPMENT_RECONCILED\", type text},",
+                "        {\"IS_MANUAL_ASSIGN\", type text},",
+                "        {\"IS_BOOKING_REQUIRED\", type text},",
+                "        {\"SHIPMENT_CLOSED_INDICATOR\", type text},",
+                "        {\"HAS_ALERTS\", type text},",
+                "        {\"HAS_TRACKING_MSG\", type text},",
+                "        {\"HAS_NOTES\", type text},",
+                "        {\"ON_TIME_INDICATOR\", type text},",
+                "        {\"DROPOFF_PICKUP\", type text},",
+                "        {\"PLN_MIN_TEMPERATURE\", type number},",
+                "        {\"PLN_MAX_TEMPERATURE\", type number},",
+                "        {\"TEMPERATURE_UOM\", type text},",
+                "        {\"CUSTOMER_ID\", type text},",
+                "        {\"BILL_TO_NAME\", type text},",
+                "        {\"BILL_TO_ADDRESS\", type text},",
+                "        {\"BILL_TO_CITY\", type text},",
+                "        {\"BILL_TO_STATE_PROV\", type text},",
+                "        {\"BILL_TO_POSTAL_CODE\", type text},",
+                "        {\"BILL_TO_COUNTRY_CODE\", type text},",
+                "        {\"BILL_TO_CODE\", type text},",
+                "        {\"BILLING_METHOD\", type text},",
+                "        {\"COMMODITY_CLASS\", Int64.Type},",
+                "        {\"PACKAGING\", type text},",
+                "        {\"ORDER_QTY\", type number},",
+                "        {\"DECLARED_VALUE\", type number},",
+                "        {\"DV_CURRENCY_CODE\", type text},",
+                "        {\"TRANS_RESP_CODE\", type text},",
+                "        {\"PRIORITY_TYPE\", type text},",
+                "        {\"LANE_NAME\", type text},",
+                "        {\"REGION_ID\", type text},",
+                "        {\"SENT_TO_PKMS\", type text},",
+                "        {\"FIRST_UPDATE_SENT_TO_PKMS\", type text},",
+                "        {\"UPDATE_SENT\", type text},",
+                "        {\"WMS_STATUS_CODE\", type text},",
+                "        {\"EXTRACTION_DTTM\", type datetime}",
+                "    })",
+                "in",
+                "    #\"Changed Type\""
+              ]
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ]
+      },
+      {
+        "name": "MeasureTable",
+        "lineageTag": "b2c3d4e5-f6g7-8901-bcde-f23456789012",
+        "partitions": [
+          {
+            "name": "MeasureTable",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = #table(type table [Dummy = text], {{\"\"}}),,",
+                "    Result = Table.RemoveColumns(Source, {\"Dummy\"})",
+                "in",
+                "    Result"
+              ]
+            }
+          }
+        ],
+        "measures": [
+          {
+            "name": "Total Shipment Count",
+            "expression": "COUNTROWS('TMS_Shipment')",
+            "formatString": "#,0",
+            "lineageTag": "c3d4e5f6-g7h8-9012-cdef-345678901234",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "Cancelled Shipment %",
+            "expression": "DIVIDE(CALCULATE(COUNTROWS('TMS_Shipment'), 'TMS_Shipment'[IS_SHIPMENT_CANCELLED] = \"Y\"), COUNTROWS('TMS_Shipment'), 0) * 100",
+            "formatString": "0.00%",
+            "lineageTag": "d4e5f6g7-h8i9-0123-def0-456789012345",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "Reconciled Shipment %",
+            "expression": "DIVIDE(CALCULATE(COUNTROWS('TMS_Shipment'), 'TMS_Shipment'[IS_SHIPMENT_RECONCILED] = \"Y\"), COUNTROWS('TMS_Shipment'), 0) * 100",
+            "formatString": "0.00%",
+            "lineageTag": "e5f6g7h8-i9j0-1234-ef01-567890123456",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "Shipment Age (Days)",
+            "expression": "DATEDIFF(MIN('TMS_Shipment'[CREATED_DTTM]), TODAY(), DAY)",
+            "formatString": "0",
+            "lineageTag": "f6g7h8i9-j0k1-2345-f012-678901234567",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "Out-of-Route Distance %",
+            "expression": "DIVIDE(SUM('TMS_Shipment'[DISTANCE]) - SUM('TMS_Shipment'[DIRECT_DISTANCE]), SUM('TMS_Shipment'[DISTANCE]), 0) * 100",
+            "formatString": "0.00%",
+            "lineageTag": "g7h8i9j0-k1l2-3456-0123-789012345678",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "Average Stops per Shipment",
+            "expression": "DIVIDE(SUM('TMS_Shipment'[NUM_STOPS]), COUNTROWS('TMS_Shipment'), 0)",
+            "formatString": "0.00",
+            "lineageTag": "h8i9j0k1-l2m3-4567-1234-890123456789",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "Average Route Distance",
+            "expression": "DIVIDE(SUM('TMS_Shipment'[DISTANCE]), COUNTROWS('TMS_Shipment'), 0)",
+            "formatString": "0.00",
+            "lineageTag": "i9j0k1l2-m3n4-5678-2345-901234567890",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "Average Direct Distance",
+            "expression": "DIVIDE(SUM('TMS_Shipment'[DIRECT_DISTANCE]), COUNTROWS('TMS_Shipment'), 0)",
+            "formatString": "0.00",
+            "lineageTag": "j0k1l2m3-n4o5-6789-3456-012345678901",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "Route Efficiency Index",
+            "expression": "DIVIDE(SUM('TMS_Shipment'[DIRECT_DISTANCE]), SUM('TMS_Shipment'[DISTANCE]), 0)",
+            "formatString": "0.000",
+            "lineageTag": "k1l2m3n4-o5p6-7890-4567-123456789012",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "Unreconciled Aging Days",
+            "expression": "CALCULATE(DATEDIFF(MIN('TMS_Shipment'[CREATED_DTTM]), TODAY(), DAY), 'TMS_Shipment'[IS_SHIPMENT_RECONCILED] = \"N\")",
+            "formatString": "0",
+            "lineageTag": "l2m3n4o5-p6q7-8901-5678-234567890123",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "Creation Rate",
+            "expression": "COUNTROWS('TMS_Shipment')",
+            "formatString": "#,0",
+            "lineageTag": "m3n4o5p6-q7r8-9012-6789-345678901234",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          },
+          {
+            "name": "Source Mix %",
+            "expression": "DIVIDE(COUNTROWS('TMS_Shipment'), CALCULATE(COUNTROWS('TMS_Shipment'), ALL('TMS_Shipment')), 0) * 100",
+            "formatString": "0.00%",
+            "lineageTag": "n4o5p6q7-r8s9-0123-7890-456789012345",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ]
+          }
+        ],
+        "annotations": [
+          {
+            "name": "PBI_NavigationStepName",
+            "value": "Navigation"
+          },
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ]
+      }
+    ],
+    "relationships": [],
+    "cultures": [
+      {
+        "name": "en-IN",
+        "linguisticMetadata": {
+          "content": {
+            "Version": "1.0.0",
+            "Language": "en-US"
+          },
+          "contentType": "json"
+        }
+      }
+    ],
+    "annotations": [
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "1"
+      },
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"TMS_Shipment\", \"MeasureTable\"]"
+      }
+    ]
+  }
+}
